@@ -38,23 +38,23 @@ typedef struct s_list {
 } t_list;
 ```
 Implemented Bonus Functions
--ft_lstnew – Create a new list node
+- ft_lstnew – Create a new list node
 
--ft_lstadd_front – Add node at the front
+- ft_lstadd_front – Add node at the front
 
--ft_lstsize – Count nodes in a list
+- ft_lstsize – Count nodes in a list
 
--ft_lstlast – Get last node
+- ft_lstlast – Get last node
 
--ft_lstadd_back – Add node at the end
+- ft_lstadd_back – Add node at the end
 
--ft_lstdelone – Delete one node
+- ft_lstdelone – Delete one node
 
--ft_lstclear – Clear entire list
+- ft_lstclear – Clear entire list
 
--ft_lstiter – Apply a function to each content
+- ft_lstiter – Apply a function to each content
 
--ft_lstmap – Map a function over list contents and return a new list
+- ft_lstmap – Map a function over list contents and return a new list
 
 ## 🔧 Compilation
 To compile the library:
