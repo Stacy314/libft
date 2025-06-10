@@ -31,26 +31,3 @@ char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 	des[i] = '\0';
 	return (des);
 }
-
-/*int	ft_tolower_wrapper(unsigned int i, char c)
-{
-	return ft_tolower(c);
-}
-
-int	ft_tolower(int c)
-{
-	if (c >= 65 && c <= 90)
-		return (c + 32);
-	return (c);
-}
-
-int main()
-{
-    char *modified_str;
-    char str[] = "Hello, world!";
-    printf("Original string: %s\n", str);
-    modified_str = ft_strmapi(str, ft_tolower_wrapper);
-    printf("Modified string: %s\n", modified_str);
-    free(modified_str);
-    return 0;
-}*/

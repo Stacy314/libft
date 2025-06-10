@@ -22,14 +22,3 @@ void	ft_bzero(void *s, size_t n)
 	while (i < n)
 		buff[i++] = 0;
 }
-/*int main()
-{
-    char str[12] = "Hello World";
-    printf("Before bzero: %s\n", str);
-
-    ft_bzero(str, 1);
-
-    printf("After bzero: %s\n", str);
-
-    return 0;
-}*/

@@ -37,17 +37,3 @@ char	*ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-
-/*int main(void)
-{
-    const char *big = "Hello, world!";
-    const char *little = "world";
-    size_t len = 13;
-
-    char *result = ft_strnstr(big, little, len);
-    if (result != NULL)
-        printf("'%s' found at index: %ld\n", little, result - big);
-    else
-        printf("'%s' not found\n", little);
-    return 0;
-}*/

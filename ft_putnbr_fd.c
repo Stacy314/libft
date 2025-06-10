@@ -28,11 +28,3 @@ void	ft_putnbr_fd(int n, int fd)
 	c = nbr % 10 + '0';
 	write(fd, &c, 1);
 }
-
-/*int	main(void)
-{
- 	int my_number = -2147483648; 
- 	int fd = 1; 
- 	ft_putnbr_fd(my_number, fd);
- 	return(0);
-}*/

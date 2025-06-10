@@ -26,10 +26,3 @@ int	ft_putstr_fd(char *s, int fd)
 	}
 	return (i);
 }
-/*int	main(void)
-{
-	char *my_string = "Hello, World!"; 
-	int fd = 2;
-	ft_putstr_fd(my_string, fd);
-	return(0);
-}*/

@@ -29,22 +29,3 @@ int	ft_memcmp(const void *s1, const void *s2, size_t n)
 	}
 	return (0);
 }
-
-/*int main() 
-{
-    // Define two memory blocks to compare
-    char block1[] = "Hello";
-    char block2[] = "Hello";
-
-    // Compare the first 5 characters of the two blocks
-    int result = ft_memcmp(block1, block2, 5);
-
-    // Print the result
-    if (result == 0)
-        printf("The first 5 characters of block1 and block2 are identical.\n");
-    else if (result < 0)
-        printf("The first 5 characters of block1 before block2.\n");
-    else
-        printf("The first 5 characters of block1 after block2.\n");
-    return 0;
-}*/

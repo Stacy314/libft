@@ -17,12 +17,3 @@ int	ft_putchar_fd(char c, int fd)
 	write(fd, &c, 1);
 	return (1);
 }
-
-/*int	main(void)
-{
-	char	a;
-
-	a = 'A';
-	ft_putchar_fd(a, 1); //u can put to ft 0-2
-	return(0);
-}*/

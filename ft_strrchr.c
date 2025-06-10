@@ -27,17 +27,3 @@ char	*ft_strrchr(const char *s, int c)
 	}
 	return (0);
 }
-
-/*int main(void)
-{
-    const char *str = "Hello, World!";
-    int char_find = 'W'; 
-
-    char *result = ft_strrchr(str, char_find);
-
-    if (result != NULL)
-        printf("Character '%c' found: %ld\n", char_find, result - str);
-    else
-        printf("Character '%c' not found in the string.\n", char_find);
-   return 0;
-}*/

@@ -30,18 +30,3 @@ char	*ft_strdup(const char *s)
 	}
 	return (dup);
 }
-
-/*int main() {
-    char src[] = "Hello, world!";
-    char *duplicate = ft_strdup(src);
-
-    if (duplicate != NULL) 
-    {
-        printf("Original string: %s\n", src);
-        printf("Duplicate string: %s\n", duplicate);
-        free(duplicate);
-    } 
-    else 
-        printf("Memory allocation failed.\n");
-    return 0;
-}*/

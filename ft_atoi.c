@@ -34,13 +34,3 @@ int	ft_atoi(const char *nptr)
 	}
 	return (nbr * minus);
 }
-
-/*int main(int argc, char *argv[])
-{
-	if (argc == 1)
-	{
-		return (0);
-	}
-	printf("%d", ft_atoi(argv[1]));
-	return (0);
-}*/

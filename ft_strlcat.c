@@ -38,12 +38,3 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size)
 	dst[j] = '\0';
 	return (dstlen + srclen);
 }
-
-/*int	main(void)
-{
-	char src[] = "World";
-	char *dest = NULL;
-	printf("%zu\n", ft_strlcat(dest, src, 0));
-	printf("%s\n", dest);
-	return (0);
-}*/

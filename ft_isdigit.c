@@ -19,15 +19,3 @@ int	ft_isdigit(int c)
 	else
 		return (0);
 }
-/*int main() {
-    char test_char;
-    printf("Enter a character: ");
-    scanf("%c", &test_char);
-
-    if (ft_isalnum(test_char))
-        printf("%c is a digit.\n", test_char);
-    else
-        printf("%c is not a digit.\n", test_char);
-
-    return 0;
-}*/

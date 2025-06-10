@@ -23,16 +23,3 @@ t_list	*ft_lstnew(void *content)
 	new->next = (t_list *)(void *)0;
 	return (new);
 }
-/*int main()
-{
-    // Creating a new list node with content "Hello"
-    t_list *new_node = ft_lstnew("Hello");
-
-    // Printing the content of the new node
-    printf("Content of the new node: %s\n", (char *)new_node->content);
-
-    // Freeing the memory allocated for the new node
-    free(new_node);
-
-    return 0;
-}*/

@@ -39,19 +39,3 @@ char	*ft_strjoin(char const *s1, char const *s2)
 	res[i] = '\0';
 	return (res);
 }
-
-/*int	main(void)
-{
-    char *s1 = "Hello, ";
-    char *s2 = "world!";
-    char *result = ft_strjoin(s1, s2);
-
-    if (result != NULL)
-    {
-        printf("Concatenated string: %s\n", result);
-        free(result);
-    }
-    else
-        printf("Memory allocation failed\n");
-    return 0;
-}*/

@@ -27,17 +27,3 @@ void	*ft_memcpy(void *dst, const void *src, size_t n)
 		*(dst_cpy++) = *(src_cpy++);
 	return (dst);
 }
-
-/*int main()
-{
-    // Define source and destination arrays
-    char src[] = "Hello, world!";
-    char dst[20];
-    // Copy 13 bytes from src to dst
-    ft_memcpy(dst, src, 13);
-    // Null-terminate the destination string for printing
-    dst[13] = '\0';
-    // Print the copied string
-    printf("Copied string: %s\n", dst);
-    return 0;
-}*/

@@ -29,29 +29,3 @@ void	*ft_memchr(const void *s, int c, size_t n)
 	}
 	return (0);
 }
-
-/*int main() {
-    const char str[] = "Hello, world!";
-    char *result_std;
-    char *result_ft;
-    int character_to_find = 'o';
-    size_t n = strlen(str);
-
-    // Using the standard memchr function
-    result_std = memchr(str, character_to_find, n);
-    if (result_std != NULL)
-        printf("memchr found '%c' at %ld.\n", character_to_find, 
-        result_std - str);
-    else
-        printf("memchr did not find '%c'.\n", character_to_find);
-
-    // Using your ft_memchr function
-    result_ft = ft_memchr(str, character_to_find, n);
-    if (result_ft != NULL)
-        printf("ft_memchr found '%c' at %ld.\n", character_to_find, 
-        result_ft - str);
-    else
-        printf("ft_memchr did not find '%c'.\n", character_to_find);
-
-    return 0;
-}*/

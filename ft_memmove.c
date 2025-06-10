@@ -35,14 +35,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-
-/*int	main(void)
-{
- 	char src[15] = "lorem ipsum";
- 	char dst[20] = "dolor sit amet";
- 	size_t len = 3;
-
- 	printf("src: %s [ %p ]\n", src, &src);
- 	printf("dst: %s [ %p ]\n", dst, &dst);
- 	printf("-> dst: %s\n", ft_memmove(src, dst, len));
-}*/

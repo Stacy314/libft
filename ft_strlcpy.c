@@ -32,12 +32,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t size)
 		i++;
 	return (i);
 }
-
-/*int main(void)
-{
-	char src[] = "Hello World!";
-	char *dst = NULL;
-	printf("%zu\n", ft_strlcpy(dst, src, 0));
-	printf("%s\n", dst);
-	return(0);
-}*/

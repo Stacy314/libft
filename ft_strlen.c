@@ -21,14 +21,3 @@ size_t	ft_strlen(const char *s)
 		++size;
 	return (size);
 }
-
-/*int main(int argc, char *argv[]) 
-{
-	if (argc == 1)
-	{
-		return (0);
-	}
-	size_t length = ft_strlen(argv[1]);
-	printf("Length of the string is: %zu\n", length);
-	return (0);
-}*/

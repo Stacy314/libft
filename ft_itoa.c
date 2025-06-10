@@ -61,9 +61,3 @@ char	*ft_itoa(int n)
 		str[0] = '-';
 	return (str);
 }
-/*int main()
-{
-	printf("%s\n", ft_itoa(-342342));
-	
-	return (0);
-}*/

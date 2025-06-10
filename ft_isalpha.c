@@ -19,15 +19,3 @@ int	ft_isalpha(int c)
 	else
 		return (0);
 }
-/*int main() {
-    char test_char;
-    printf("Enter a character: ");
-    scanf("%c", &test_char);
-
-    if (ft_isalnum(test_char))
-        printf("%c is an alpha.\n", test_char);
-    else
-        printf("%c is not an alpha.\n", test_char);
-
-    return 0;
-}*/

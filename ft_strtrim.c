@@ -34,19 +34,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	ft_strlcpy(res, &s1[first_char], last_char - first_char + 2);
 	return (res);
 }
-
-/*int main(void)
-{
-    char *s1 = "   Hello, world!   ";
-    char *set = " ";
-    char *trimmed = ft_strtrim(s1, set);
-
-    if (trimmed != NULL)
-    {
-        printf("Trimmed string: \"%s\"\n", trimmed);
-        free(trimmed);
-    }
-    else
-        printf("Memory allocation failed\n");
-    return 0;
-}*/
